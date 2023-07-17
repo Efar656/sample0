@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>YouTube Clone</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+    .header {
+      display: flex;
+      justify-content: space-between;
+      padding: 10px;
+      align-items: center;
+      background: #FF0000;
+      color: white;
+    }
+    .main-content {
+      display: flex;
+      margin: 20px;
+    }
+    .video {
+      flex: 70%;
+      margin-right: 20px;
+    }
+    .sidebar {
+      flex: 30%;
+    }
+    .sidebar img {
+      width: 100%;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="header">
+    <h1>YouTube Clone</h1>
+    <input type="text" placeholder="Search..." />
+  </div>
+
+  <div class="main-content">
+    <div class="video">
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/ScMzIvxBSi4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+    <div class="sidebar">
+      <img src="https://via.placeholder.com/150" alt="Thumbnail" />
+      <img src="https://via.placeholder.com/150" alt="Thumbnail" />
+      <img src="https://via.placeholder.com/150" alt="Thumbnail" />
+    </div>
+  </div>
+</body>
+</html>
